@@ -43,7 +43,6 @@ Clone the XPlaneConnect repository by typing in a terminal $git clone https://gi
 
 If not already done so, create a catkin workspace with catkin tools:
 
-
 	$sudo apt-get install python-catkin-tools
 
 	$mkdir -p ~/xplane_ros_ws/src
