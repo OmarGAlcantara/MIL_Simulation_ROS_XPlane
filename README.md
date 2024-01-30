@@ -62,13 +62,13 @@ In a terminal type:
  
 	$git submodule update --init --recursive
  
-  $sudo apt-get install ros-melodic-eigen-stl-containers
+  	$sudo apt-get install ros-melodic-eigen-stl-containers
   
-  $cd ..
+ 	$cd ..
   
-  $catkin build
+  	$catkin build
   
-  $source ~/xplane_ros_ws/devel/setup.bash
+  	$source ~/xplane_ros_ws/devel/setup.bash
   
 
 For convenience, you can add the source ~/xplane_ros_ws/devel/setup.bash statement in your ~/.bashrc file.
@@ -76,18 +76,18 @@ For convenience, you can add the source ~/xplane_ros_ws/devel/setup.bash stateme
 
 Move to your catkin workspace:
 
-$cd ~/xplane_ros_ws/src
+	$cd ~/xplane_ros_ws/src
 
 
 Install system dependencies:
 
-$sudo apt-get install python-wstool python-catkin-tools
+	$sudo apt-get install python-wstool python-catkin-tools
 
 Source and compile:
 
-$catkin build
+	$catkin build
 
-$source ~/xplane_ros_ws/devel/setup.bash
+	$source ~/xplane_ros_ws/devel/setup.bash
 
 Testing if XPlaneROS works:
 
@@ -102,7 +102,7 @@ Click Start Flight.
 You can then start XPlaneROS with
 
 
-$roslaunch xplane_ros default.launch
+	$roslaunch xplane_ros default.launch
 
 The default.launch provides the bare-minimum structure in order to interface with XPlane. The xplane_ros_wrapper node will provide the odometry data from XPlane and it will listen to Xplane commands from the user application on the topic /xplane/my_control and then send them to XPlane.
 
@@ -116,11 +116,11 @@ For the simulation create a ROS package and paste inside the folder scripts and 
 
 Make sure to build your workspace
 
-  $cd ..
+  	$cd ..
   
-  $catkin build
+ 	$catkin build
   
-  $source ~/xplane_ros_ws/devel/setup.bash
+  	$source ~/xplane_ros_ws/devel/setup.bash
   
 
 to run a simulation open a simulation on xplane selecting the aircraft intelaerortf2 and the location to Butler airport (ID : KBTP) with Runway 26. Launch the file to start the simulation
