@@ -126,7 +126,7 @@ Make sure to build your workspace
 to run a simulation open a simulation on xplane selecting the aircraft intelaerortf2 and the location to Butler airport (ID : KBTP) with Runway 26. Launch the file to start the simulation
 
 
-$file-route/python3 Control_QUAD_ROS.py
+	$file-route/python3 Control_QUAD_ROS.py
 
 
 
