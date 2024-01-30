@@ -4,10 +4,15 @@ This repo represents a MIL Simulation in the XPlane 11 Flight Simulation Environ
 
 
 Dependencies:
+
 -XPlane11
+
 -Ubuntu 18.04
+
 -ROS Melodic
+
 -XplaneROS
+
 -XPlaneConnect
 
 
