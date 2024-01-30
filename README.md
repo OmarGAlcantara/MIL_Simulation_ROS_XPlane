@@ -44,13 +44,13 @@ Clone the XPlaneConnect repository by typing in a terminal $git clone https://gi
 If not already done so, create a catkin workspace with catkin tools:
 
 
-$sudo apt-get install python-catkin-tools
+	$sudo apt-get install python-catkin-tools
 
-$mkdir -p ~/xplane_ros_ws/src
+	$mkdir -p ~/xplane_ros_ws/src
 
-$cd ~/xplane_ros_ws
+	$cd ~/xplane_ros_ws
 
-$catkin init
+	$catkin init
 
 
 After that we will install our fork of ROSplane. Download the src folder from the following url "https://cinvestav365-my.sharepoint.com/:f:/g/personal/omar_garcia_cinvestav_mx/EgPVlCLWZzRJh9adac1V2fABYqtnc4FqSADwBfdWTE3kDQ?e=coI14Y" and paste it inside the xplane_ros_ws folder.
