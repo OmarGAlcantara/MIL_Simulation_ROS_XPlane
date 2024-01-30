@@ -1,5 +1,7 @@
 # MIL_Simulation_ROS_XPlane
+
 This repo represents a MIL Simulation in the XPlane 11 Flight Simulation Environment using XPlaneROS and XPlaneConnect.
+
 
 Dependencies:
 -XPlane11
@@ -8,7 +10,9 @@ Dependencies:
 -XplaneROS
 -XPlaneConnect
 
+
 Assuming Ubuntu 18, XPlane 11 and ROS Melodic full desktop version are installed.
+
 
 XPLANE SET UP
 Download from this repository the XPlaneConnect folder and paste it in the XPlane plugins route. If XPlane was purchased from Steam the route would be "/home/youruser/.local/share/Steam/steamapps/common/X-Plane 11/Resources/plugins".
