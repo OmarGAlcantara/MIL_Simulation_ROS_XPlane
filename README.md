@@ -128,4 +128,4 @@ to run a simulation open a simulation on xplane selecting the aircraft intelaero
 	$file-route/python3 Control_QUAD_ROS.py
 
 
-
+IN ORDER TO MAKE EVERYTHING WORK MAKE SURE TO CHANGE ALL THE SHEBANGS FROM THE XPLANE_ROS PACKAGE FROM "python" to "python2.7"
